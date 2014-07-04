@@ -1,0 +1,10 @@
+<script type="text/javascript" src="{{ asset('bundles/fulguriolightcmsckeditor/js/ckeditor.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/fulguriolightcmsckeditor/js/adapters/jquery.js') }}"></script>
+<script>
+$(function() {
+	$('{{ idElt }}').ckeditor({
+		skin : '{{ config.skin }}',
+		toolbar : {{ config.toolbar|raw }}
+	});
+});
+</script>
