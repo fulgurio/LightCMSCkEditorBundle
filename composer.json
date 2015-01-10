@@ -1,0 +1,27 @@
+{
+    "name": "fulgurio/light-cms-ckeditor-bundle",
+    "description": "CkEditor for LigthCMS bundle",
+    "type": "symfony-bundle",
+    "authors": [{
+            "name": "Fulgurio",
+            "homepage": "http://fulgurio.net"
+        }
+    ],
+    "keywords": [
+        "lightcms",
+        "editor",
+        "bundle"
+    ],
+    "homepage": "http://github.com/fulgurio/LightCMSCkEditorBundle",
+    "license": "GPL",
+    "require": {
+        "fulgurio/light-cms-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fulgurio\\LightCMSTinyCkEditorBundle": ""
+        }
+    },
+    "target-dir": "Fulgurio/LightCMSCkEditorBundle",
+    "minimum-stability": "dev"
+}

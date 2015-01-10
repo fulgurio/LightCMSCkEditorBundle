@@ -26,7 +26,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('fulgurio_light_cms_ck_editor');
+        $rootNode = $treeBuilder->root('fulgurio_light_cms_ckeditor');
         $rootNode
             ->addDefaultsIfNotSet()
             ->children()
